@@ -15,6 +15,9 @@ Workspace for video, motion graphics and voiceover. Skills live in `.claude/skil
 - SFX: `assets/sfx/kenney/*` (CC0 Kenney packs, .ogg) and `assets/sfx/motion/*` (original
   ffmpeg-synthesized whooshes, risers, impacts, pops; regenerate with `scripts/make_motion_sfx.sh`).
   Copy the files a project uses into that project so renders stay self-contained.
+- Unsplash: prefer the Unsplash connector (`search_photos`, then `download_asset` for the URL, which
+  records the download as Unsplash requires); save into `assets/stock/unsplash/photos/` and add a
+  `credits.json` entry. `scripts/stock.py unsplash` is the fallback when the connector isn't available.
 - Stock media: `scripts/stock.py unsplash photo "<query>"`, `scripts/stock.py pixabay photo|video "<query>"`
   (`--search-only` to list, `-n`, `--orientation landscape|vertical`). Needs `UNSPLASH_ACCESS_KEY` /
   `PIXABAY_API_KEY` env vars and api.unsplash.com, images.unsplash.com, pixabay.com, cdn.pixabay.com allowed.
