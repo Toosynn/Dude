@@ -5,4 +5,11 @@ out/
 .hyperframes/
 projects/*/.hyperframes/
 __pycache__/
-assets/stock/**/*.{jpg,jpeg,png,webp,mp4}
+assets/stock/**/*.jpg
+assets/stock/**/*.jpeg
+assets/stock/**/*.png
+assets/stock/**/*.webp
+assets/stock/**/*.gif
+assets/stock/**/*.mp4
+assets/stock/**/*.webm
+assets/stock/**/*.mov
