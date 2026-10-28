@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+out/
+**/out.mp4
+.hyperframes/
+projects/*/.hyperframes/
+__pycache__/
+assets/stock/**/*.{jpg,jpeg,png,webp,mp4}
