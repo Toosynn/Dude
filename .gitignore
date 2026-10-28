@@ -1,0 +1,7 @@
+node_modules/
+.venv/
+out/
+**/out.mp4
+.hyperframes/
+projects/*/.hyperframes/
+__pycache__/

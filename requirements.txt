@@ -1,0 +1,5 @@
+chatterbox-tts
+kokoro-onnx
+soundfile
+openai-whisper
+pydub
