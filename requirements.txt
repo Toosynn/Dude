@@ -1,4 +1,5 @@
 chatterbox-tts
+setuptools<81  # resemble-perth (Chatterbox watermarker) imports pkg_resources
 kokoro-onnx
 soundfile
 openai-whisper
